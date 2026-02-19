@@ -1,0 +1,8 @@
+{
+    "reaction1": {
+        "reactants": {"A": 2},
+        "products": {"B": 1},
+        "activate_energy_KJ_per_mol": 50.0,
+        "heat_of_reaction": 0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "system":{
+        "box_size_nm": [4.0, 4.0, 13.6],
+        "Temp_K": 85,
+        "boundary": "reflect" 
+    },
+    "simulation":{
+        "dt_fs": 5.0,
+        "total_steps": 100000,
+        "dlog": 500,
+        "GPU_block_size": 128
+    },
+    "molecules":[
+        {"type": "A", "count": 1200, "file": "A"},
+        {"type": "B", "count": 0, "file": "B"}
+    ],
+    "reactions": "reactions"
+}

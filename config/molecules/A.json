@@ -1,0 +1,8 @@
+{   
+    "name": "Argon",
+    "mass_amu": 39.948, 
+    "LJ_params":{
+        "epsilon_K": 119.8, 
+        "sigma_nm": 0.34
+    }
+}
