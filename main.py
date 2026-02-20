@@ -70,7 +70,7 @@ def start_simulation(config_name='simulation.json'):
     logging.info(f'0 Step 파일 저장 : {traj_path}')
     monitor.print_status(0)
 
-    # 8. 시뮬레이션 메인 loop
+    # 9. 시뮬레이션 메인 loop
     for s in range(0, total_steps, dlog):
 
         integrator.integrate(dlog, converter, thermostat_on=True)
@@ -97,3 +97,4 @@ if __name__ == "__main__":
         except Exception as e:
             logging.error(f'{n} 시뮬레이션 중 오류 발생 : {e}')
             continue
+
